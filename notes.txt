@@ -2,6 +2,6 @@
 <head> <title><h1> hello i am new to front end</h1> </title>
 </head>
 <body>
-
+<h1>hello world</h1>
 </body>
 </html>
