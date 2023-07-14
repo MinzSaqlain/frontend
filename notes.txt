@@ -1,10 +1,7 @@
-hello world,
+<html>
+<head> <title><h1> hello i am new to front end</h1> </title>
+</head>
+<body>
 
-my name is saqlain anish minz
-
-hello hello
-
-digital lync 
-hello
-
-i am a new full stack developer
+</body>
+</html>
