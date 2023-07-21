@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image.png" href="icon.png" />
+    <title>login page</title>
+    <style>
+      h1 {
+        text-align: center;
+        background-color: aqua;
+        color: black;
+        font-family: cursive;
+        text-decoration: dotted;
+      }
+      h2 {
+        font-size: 50px;
+        font-family: "Courier New", Courier, monospace;
+      }
+      form {
+        font-size: 20px;
+      }
+      center {
+        text-align: left;
+      }
+      .button {
+        font-size: 20px;
+        background-color: black;
+      }
+      .input {
+        background-color: antiquewhite;
+      }
+      select {
+        background-color: antiquewhite;
+      }
+    </style>
+  </head>
+  <body bgcolor="grey">
+    <h1><marquee direction="left"> WELCOME TO MY WEB PAGE</marquee></h1>
+
+    <center>
+      <h2><strong>Create Account</strong></h2>
+      <form>
+        <label>First name:</label><input class="input" size="30" type="text" />
+        <label>Middle name:</label
+        ><input class="input" size="30" type="text" /> <label>Last name:</label
+        ><input class="input" size="30" type="text" /> <br /><br />
+        <label>Phone No. :</label
+        ><input class="input" size="20" type="number" /> <label>Email:</label
+        ><input class="input" size="30" type="email" /><br /><br />
+        <label>City:</label>
+        <select>
+          <option>Select your city</option>
+          <option>Rourkela</option>
+          <option>Bhubaneswar</option>
+          <option>Hydrabad</option>
+          <option>Bangaluru</option>
+          <option>Ranchi</option></select
+        ><br /><br />
+        <label>New Password:</label
+        ><input class="input" size="30" type="password" /><br /><br />
+        <label>Birthday</label>
+        <input class="input" type="date" max="2005-10-11" /><br /><br />
+        <label>Gender:</label><br />
+        <input class="input" name="gender" type="radio" />Male
+        <input class="input" name="gender" type="radio" />Female <br /><br />
+
+        <button class="button" style="color: rgb(194, 91, 142)">sign up</button>
+      </form>
+    </center>
+  </body>
+</html>
